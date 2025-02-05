@@ -3,10 +3,12 @@
 
 
 int main() {
-    int a , b = 1 || 0;
-    scanf("%d %d",&a,&b);
-    if (a >= 18)
-    printf("Eligible");
+    int age,status;
+    printf("enter your age and status");
+    scanf("%d %d",&age &status);
+    if (age >= 18 && status == 1){
+    printf("Eligible");}
+        
     else
     printf("Not Eligible");
     return 0;
