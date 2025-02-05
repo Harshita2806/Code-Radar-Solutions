@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+char* welcome() {
+    return "Welcome to Code Radar!";
+}
+
+int main() {
+    int a , b , c, result;
+    scanf("%d %d %d",&a,&b,&c);
+    if ((a > (b + c)) || (b > (a+c)) || (c > (a + b)))
+    printf("Valid");
+    else
+    printf("Invalid");
+    return 0;
+}
