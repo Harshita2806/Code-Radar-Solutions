@@ -22,8 +22,7 @@ int main() {
         else
         printf("%d", a / b);
          break;
-         default:
-         printf("Error");
+         
         
     }
     
