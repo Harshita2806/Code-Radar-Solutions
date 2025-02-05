@@ -3,8 +3,8 @@
 
 
 int main() {
-    int a,b ;
-    scanf("%d %d",&a,&b);
+    int a;
+    scanf("%d",&b);
     if (a & 1)
     printf("Set");
     else
