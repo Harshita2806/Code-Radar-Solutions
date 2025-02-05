@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int sp , cp, result;
-    scanf("%d %d",&sp,&cp)
+    scanf("%d %d",&sp,&cp);
     result = sp - cp;
     if (result > 0)
     printf("Profit");
