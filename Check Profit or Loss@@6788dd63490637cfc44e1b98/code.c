@@ -7,7 +7,7 @@ int main() {
     scanf("%d %d",&sp,&cp);
     if (sp > cp){
     printf("Profit\n");}
-    else if (cp > sp){
+    else if (sp < cp){
     printf("Loss\n");}
     else{
     printf("No Profit No Loss\n");}
