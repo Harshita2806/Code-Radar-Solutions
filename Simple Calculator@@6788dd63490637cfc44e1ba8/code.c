@@ -18,8 +18,7 @@ int main() {
         printf("Error");
         else
         printf("%d", a / b);
-        default:
-        printf("Error");
+        
     }
     
     return 0;
