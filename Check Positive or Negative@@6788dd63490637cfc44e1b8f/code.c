@@ -9,9 +9,9 @@ int main() {
     scanf("%a",&a);
     if (a > 0)
     printf("Positive");
-    if (a == 0)
-    printf("Zero");
-    else
+    if (a < 0)
     printf("Negative");
+    else
+    printf("Zero");
     return 0;
 }
