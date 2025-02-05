@@ -6,11 +6,11 @@ int main() {
     int sp , cp, result;
     scanf("%d %d",&sp,&cp);
     result = sp - cp;
-    if (result > 0)
-    printf("Profit");
-    else if (result < 0)
-    printf("Loss");
-    else
-    printf("No Profit No Loss");
+    if (result > 0){
+    printf("Profit\n");}
+    else if (result < 0){
+    printf("Loss\n");}
+    else{
+    printf("No Profit No Loss\n");}
     return 0;
 }
