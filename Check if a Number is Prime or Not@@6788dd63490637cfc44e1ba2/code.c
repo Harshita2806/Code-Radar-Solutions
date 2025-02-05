@@ -2,8 +2,6 @@
 
 int main() {
     int n;
-
-    printf("Enter an integer: ");
     scanf("%d", &n);
 
     if (n <= 1) {
